@@ -9,10 +9,9 @@ public class Main {
         if (deposit > minDeposit) {
             bonus = deposit / rate;
             balance = balance + deposit + bonus;
-            System.out.println("Ваш баланс " + balance + ". Вам начислено " + bonus + " бонусных рублей.");
         } else {
             balance = balance + deposit;
-            System.out.println("Ваш баланс " + balance + ". Вам начислено " + bonus + " бонусных рублей.");
         }
+        System.out.println("Ваш баланс " + balance + ". Вам начислено " + bonus + " бонусных рублей.");
     }
 }
